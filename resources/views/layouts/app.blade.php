@@ -17,26 +17,25 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-
 <body class="body">
-<div class="body__container" id="app">
     <div class="navbar">
         <div class="navbar__container">
-            <h1>Temperature</h1>
+            <h1>Beer</h1>
         </div>
     </div>
-    <div class="body__content">
-        <div class="main">
-            <div class="main__container">
-                @yield('content')
+    <div class="body__container" id="app">
+        <div class="body__content">
+            <div class="main">
+                <div class="main__container">
+                    @yield('content')
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
-<!-- Scripts -->
-<script src="{{ asset('js/app.js') }}" defer></script>
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
 </body>
 
 </html>

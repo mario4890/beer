@@ -1,5 +1,5 @@
 //Padding mixin
-@mixin padding($top, $right, $bottom, $left) {
+@mixin padding($top: unset, $right: unset, $bottom: unset, $left: unset) {
     padding-top: $top;
     padding-right: $right;
     padding-bottom: $bottom;

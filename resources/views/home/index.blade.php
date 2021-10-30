@@ -3,7 +3,7 @@
 @section('content')
     <div class="card">
         <div class="card__container">
-            <form action="{{ route('makeTemperature') }}" method="post">
+            <form action="" method="post">
                 @csrf
                 <div class="table">
                     <div class="table__container">
