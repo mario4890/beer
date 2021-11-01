@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\Home\IndexController::class, 'index']);
+
+Route::prefix('options')->group(function () {
+    Route::post('/save', [\App\Http\Controllers\Option\EditController::class, 'update'])->name('saveOption');
+});

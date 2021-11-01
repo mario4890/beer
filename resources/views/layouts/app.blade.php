@@ -18,6 +18,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="body">
+@include('modal.modal')
     <div class="navbar">
         <div class="navbar__container">
             <div class="logo">
@@ -28,7 +29,7 @@
             <div class="menu">
                 <div class="menu__container">
                     <ul>
-                        <li>Opcje</li>
+                        <li onclick="options.switchModal(event)">Options</li>
                     </ul>
                 </div>
             </div>

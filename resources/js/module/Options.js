@@ -3,4 +3,10 @@ export default class Options {
         // alert('test')
     }
 
+    switchModal(e) {
+        e.preventDefault();
+        let modal = document.querySelector('.js-modal');
+
+        modal.classList.toggle('active');
+    }
 }
