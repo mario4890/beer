@@ -20,7 +20,18 @@
 <body class="body">
     <div class="navbar">
         <div class="navbar__container">
-            <h1>Beer</h1>
+            <div class="logo">
+                <div class="logo__container">
+                    <h1>Beer</h1>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu__container">
+                    <ul>
+                        <li>Opcje</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <div class="body__container" id="app">

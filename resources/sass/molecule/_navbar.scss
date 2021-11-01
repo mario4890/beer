@@ -3,12 +3,17 @@
     @include size(100%);
 
     &__container {
+        @include flexbox();
         @include padding(16px, 16px, 16px, 16px);
         @include bg($light-blue);
 
         h1 {
             margin: unset;
             padding: unset;
+        }
+
+        div {
+            flex: 1;
         }
     }
 }
